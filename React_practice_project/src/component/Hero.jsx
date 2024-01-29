@@ -1,6 +1,6 @@
 
 
-const Demo = () => {
+const Hero = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Demo = () => {
     );
 };
 
-export default Demo;
+export default Hero;
