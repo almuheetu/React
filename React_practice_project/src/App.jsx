@@ -7,9 +7,8 @@ import Hero from "./component/Hero";
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
-      <Hero/>
       <Header/>
+      <Hero/>   
       <ContactForm/>
       <Footer/>
     </div>
