@@ -6,16 +6,27 @@ import Hero from "./component/Hero";
 
 const App = () => {
 
+  const status=false;
 
-  return (
-    <div>
+  // Conditional Rendaring
 
+  if(status==true){
+    return (
+      <div>
+        <h1>Login Status</h1>
+        <button>Logout</button>
+      </div>
+    );
+  }
+  else{
+    return (
+      <div>
+        <h1>Login Status</h1>
+        <button>Login</button>
+      </div>
+    )
+  }
 
-
-
-
-    </div>
-  );
 };
 
 export default App;
