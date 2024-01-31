@@ -6,12 +6,6 @@
 
 const App = () => {
 
-  const status=true;
-
-  switch(status){
-    
-  }
-
 
 };
 
