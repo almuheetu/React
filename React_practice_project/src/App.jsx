@@ -7,6 +7,26 @@
 const App = () => {
 
 
+  // JSX conditional rendering Ternary operator
+  let status=false;
+
+
+  return (
+    <div>
+
+      {
+
+        status?
+        <button>Logout Button</button>
+        :
+        <button>Login button</button>
+
+      }
+
+    </div>
+  );
+
+
 };
 
 export default App;
