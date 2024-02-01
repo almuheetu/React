@@ -7,15 +7,24 @@
 const App = () => {
 
 
-  // JSX conditional rendering Logical &&
-  let status=true;
+  // JSX conditional rendering IIF
+  let status=false;
 
 
   return (
     <div>
 
    <h1>Login Status</h1>
-   {status && <button>Logout Button</button>}
+   {(()=>{
+
+    if(status==true){
+      return <button>Logout Button</button>
+    }
+    else {
+      return <button>Login Button</button>
+    }
+
+   })()}
 
     </div>
   );
