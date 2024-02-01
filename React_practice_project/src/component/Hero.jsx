@@ -1,11 +1,13 @@
 
 
-const Hero = () => {
-    return (
-        <div>
-            <img src="https://almuheetu.github.io/My-Personl-Portfolio/images/backkk.png"/>
-        </div>
-    );
+
+const Hero = (props) => {
+
+        return (
+            <div>
+          
+            </div>
+        );
 };
 
 export default Hero;
