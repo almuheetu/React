@@ -7,21 +7,15 @@
 const App = () => {
 
 
-  // JSX conditional rendering Ternary operator
-  let status=false;
+  // JSX conditional rendering Logical &&
+  let status=true;
 
 
   return (
     <div>
 
-      {
-
-        status?
-        <button>Logout Button</button>
-        :
-        <button>Login button</button>
-
-      }
+   <h1>Login Status</h1>
+   {status && <button>Logout Button</button>}
 
     </div>
   );
