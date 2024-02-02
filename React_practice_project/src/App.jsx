@@ -11,11 +11,15 @@ const App = () => {
 
 //  Passing props passing with object data 
 
-
+const ItemObj={
+  name:'Shihab',
+  age:22,
+  city:'Rajshahi'
+}
 
   return (
     <div>
-     
+     <Hero item={ItemObj}/>
 
     </div>
   );
