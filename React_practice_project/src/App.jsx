@@ -9,7 +9,7 @@ import Hero from "./component/Hero";
 const App = () => {
 
 
-//  Passing props passing with object data 
+// Passing props passing with object data 
 
 const ItemObj={
   name:'Shihab',
