@@ -3,24 +3,19 @@
 // import Header from "./component/Header";
 // import Hero from "./component/Hero";
 
-import Hero from "./component/Hero";
+
 
 
 const App = () => {
 
 
-// Passing props passing with object data 
+// Manneging Click event 
 
-const ItemObj={
-  name:'Shihab',
-  age:22,
-  city:'Rajshahi'
-}
+
 
   return (
     <div>
-     <Hero item={ItemObj}/>
-
+     <button>Submit</button>
     </div>
   );
 
