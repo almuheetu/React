@@ -1,4 +1,26 @@
 
+const App = () => {
+
+
+// Manneging Click event 
+function Demo(){
+  alert('click');
+}
+
+
+  return (
+    <div>
+     <button onClick={Demo}>Submit</button>
+    </div>
+  );
+
+
+};
+
+export default App;
+ 
+ 
+ 
   // JSX conditional rendering IIF
   let status=false;
 

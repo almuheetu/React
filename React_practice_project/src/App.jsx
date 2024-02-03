@@ -10,12 +10,14 @@ const App = () => {
 
 
 // Manneging Click event 
-
+function Demo(){
+  alert('click');
+}
 
 
   return (
     <div>
-     <button>Submit</button>
+     <button onClick={Demo}>Submit</button>
     </div>
   );
 
