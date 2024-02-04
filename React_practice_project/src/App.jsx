@@ -9,15 +9,16 @@
 const App = () => {
 
 
-// Manneging Click event 
-function Demo(){
-  alert('click');
-}
+// Manneging Form submit 
+
 
 
   return (
     <div>
-     <button onClick={Demo}>Submit</button>
+     <form>
+      <input placeholder="name"/>
+      <button type="submit">Submit</button>
+     </form>
     </div>
   );
 
