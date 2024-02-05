@@ -11,11 +11,16 @@ const App = () => {
 
 // Manneging Form submit 
 
+const PostFormData=(event)=>{
+  event.PreventDefault();
 
+  
+  alert('From Submitted')
+}
 
   return (
     <div>
-     <form>
+     <form onSubmit={PostFormData}>
       <input placeholder="name"/>
       <button type="submit">Submit</button>
      </form>
