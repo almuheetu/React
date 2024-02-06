@@ -9,25 +9,19 @@
 const App = () => {
 
 
-// Manneging Form submit 
+// UseRef Method
 
-const PostFormData=(event)=>{
-  event.PreventDefault();
+return (
+  <div>
 
-  
-  alert('From Submitted')
+  </div>
+);
+
+
+
 }
 
-  return (
-    <div>
-     <form onSubmit={PostFormData}>
-      <input placeholder="name"/>
-      <button type="submit">Submit</button>
-     </form>
-    </div>
-  );
 
 
-};
 
 export default App;
